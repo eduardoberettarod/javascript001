@@ -5,7 +5,24 @@
 let nome = 'Eduardo';
 let idade = 17;
 // Console e Debug
+console.log(nome);
+console.log(idade);
+nome= 'Alysson';
+idade= 18;
+console.log(nome, idade);
+// Tipos de dados
+//text ==> string
+// number ==> number
+let cidade= "Americana"
 
+//numerico = number
+let salario= 1500.35
+
+// boleano = boolean
+let fumante= false
+console.log(typeof cidade);
+console.log(typeof salario);
+console.log(typeof fumante);
 // Operadores
 //     Operador Atribuição
 //     Operadores aritméticos
