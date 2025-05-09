@@ -52,6 +52,20 @@ console.log(!false); //negação
 console.log(10 > 2 && 5 > 3 && 2 < 1); //e - Todas as expressões devem ser verdadeiras para retornar true
 console.log(10 > 2 || 5 > 3 || 2 < 1); //ou - Apenas uma expressão precisa ser verdadeira para retornar true
 
+//Desafios
+let preco = 100;
+let precoAcrescimo = 0.17;
+let precoDesconto = 0.07;
+//faça um código que acrescente 17% ao preço e imprima
+//faça um código que desconte 7% do preço e imprima
+
+let precoAcrescimoFinal = preco + (preco * precoAcrescimo);
+console.log(precoAcrescimoFinal);
+let precoDescontoFinal = preco - (preco * precoDesconto);
+console.log(precoDescontoFinal);
+console.log("O valor com acrescimo é: " + precoAcrescimoFinal.toFixed(2));
+console.log("O valor com desconto é: " + precoDescontoFinal.toFixed(2));
+
 // Estrutura
 //     Estrutura de controle/decisão
 //     Laços de repetição
