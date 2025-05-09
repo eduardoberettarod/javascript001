@@ -118,8 +118,28 @@ for (let i= 1; i <= 50; i = i + 1){
     console.log(i);
 }
 
-// Arrays
+// Arrays --> vetor
+let alunos = ["Eduardo", "Alysson", "Lucas", "Henzo", "Gustavo", "Gabriel", "Felipe", "Matheus", "Guilherme"];
+console.log(alunos [0]); //Eduardo
+alunos [2] = "Jesus"
+console.log(alunos)
+alunos.push("José")
+console.log(alunos)
 
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍓")
+frutas.push("🍎")
+frutas.push("🍌")
+frutas.push("🍊")
+frutas.push("🍉")
+frutas.push("🍇")
+frutas.push("🍍")
+frutas.push("🍈")
+frutas.push("🍑")
+frutas.push("🍒")
+console.log(frutas)
 // Funções básicas
 // Escopo
 
