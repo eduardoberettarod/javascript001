@@ -67,6 +67,32 @@ console.log("O valor com acrescimo é: " + precoAcrescimoFinal.toFixed(2));
 console.log("O valor com desconto é: " + precoDescontoFinal.toFixed(2));
 
 // Estrutura
+//     Condicionais (if, else, switch)
+if (3>2) {
+    console.log("3 é maior que 2");
+}
+else {
+    console.log("3 não é maior que 2");
+}
+
+let idadedocanditato = 17;
+
+if (idadedocanditato >= 18) {
+    console.log("O candidato pode votar");
+}
+else {
+    console.log("O candidato não pode votar");
+}
+let sal = 3000
+let salarioideal = 5000
+let diferenca = (salarioideal - sal).toFixed(2);
+if (sal > 5000){
+    console.log("Sálario ok!");
+}
+else{
+
+    console.log("Falta " + diferenca + " para o salário ideal");
+}
 //     Estrutura de controle/decisão
 //     Laços de repetição
 
