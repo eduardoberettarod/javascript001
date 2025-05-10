@@ -140,7 +140,13 @@ frutas.push("🍈")
 frutas.push("🍑")
 frutas.push("🍒")
 console.log(frutas)
+
 // Funções básicas
+function soma(num1, num2){
+    let total = num1 + num2
+    console.log ("O resultado é " + total);
+}
+soma(100 , 14)
 // Escopo
 
 
